@@ -2,7 +2,7 @@ macro_ask_chatgpt: macro_ask_chatgpt{
 compatible = "zmk,behavior-macro";
 label = "macro_ask_chatgpt";
 #binding-cells = <0>;
-bindings = <&kp LA(SPACE)>, <&kp C>, <&kp H>, <&kp A>, <&kp T>, <&kp QUESTION>;
+bindings = <&kp ESCAPE>, <&kp LALT>, <&kp LA(SPACE)>, <&kp C>, <&kp H>, <&kp A>, <&kp T>, <&kp QUESTION>;
 };
 macro_deepl: macro_deepl{
 compatible = "zmk,behavior-macro";
