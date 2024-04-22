@@ -1,3 +1,9 @@
+macro_all_detete_mac: macro_all_detete_mac{
+compatible = "zmk,behavior-macro";
+label = "macro_all_detete_mac";
+#binding-cells = <0>;
+bindings = <&kp LG(A)>, <&kp BSPC>;
+};
 macro_ask_chatgpt: macro_ask_chatgpt{
 compatible = "zmk,behavior-macro";
 label = "macro_ask_chatgpt";
